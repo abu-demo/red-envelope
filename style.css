@@ -1,11 +1,13 @@
-.rain {
-    width: 400px;
-    height: 600px;
-    background-color: aquamarine;
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("./back.jpg");
+    /* 图片自适应大小 */
+    background-size: contain;
+    /* 不重复 */
+    background-repeat: no-repeat;
 }
 
-.red {
-    width: 50px;
-    height: 80px;
-    background-color: red;
+.bac {
+    float: left;
 }

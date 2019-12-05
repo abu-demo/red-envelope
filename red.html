@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>red envelope rain</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- 样式 -->
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-image: url("./back.jpg");
+            /* 图片自适应大小 */
+            background-size: contain;
+            /* 不重复 */
+            background-repeat: no-repeat;
+        }
+
+        .bac {
+            float: left;
+        }
+    </style>
 </head>
+
 <body>
-    <div class="rain"></div>
-    <div class="red"></div>
+    <img id="img" src="./snowflake.png" style="display: none;">
+    <!-- 画布 -->
+    <canvas id="myCanvas"></canvas>
 </body>
+
 <script src="rain.js"></script>
+
 </html>
